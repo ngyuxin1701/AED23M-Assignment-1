@@ -1,0 +1,200 @@
+body {
+  margin:0;
+  background-color: oldlace;
+}
+
+h1 {
+  background-color:gold;
+  color:green;
+  font-family:georgia;
+  font-size:5.5vw;
+  text-align:center;
+  margin:0px;
+  padding: 2%;
+}
+
+h2 {
+  color:green;
+  font-family:georgia;
+  font-size: 4vw;
+  text-align:center;
+  text-decoration-line: underline;
+}
+
+h3 {
+  color:green;
+  font-family:georgia;
+  font-size: 3.5vw;
+  text-align:center;
+  text-decoration-line: none;
+}
+
+p {
+  color:black; 
+  font-family:verdana;
+  font-size:2vw;
+  text-align:center;
+  padding: 0% 5% 0% 5%
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul.a {
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: gold;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration-line: none;
+  font-family:verdana;
+  border: 1px solid black;
+  font-size: 1.5vw;
+}
+
+li a:hover {
+  color: black;
+  background-color: gold;
+  text-decoration-line: underline;
+}
+
+div.animals {
+  border: 3px solid black;
+  background-color: gold;
+  font-family: verdana;
+  text-align: center;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+div.animals a {
+  color: black;
+  text-decoration: none;
+}
+
+div.animals:hover {
+  background-color: black;
+  text-decoration: none;
+}
+
+div.animals a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+div.animals img {
+  width: 100%;
+  height: auto;
+}
+
+.responsiveanimal {
+  padding: 6px;
+  float: left;
+  width: 300px;
+  height: 800px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border: 3px solid black;
+  font-family: georgia;
+}
+
+th, td {
+  padding: 2%;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 2vw;
+}
+
+th {
+  padding: 2%;
+  border: 3px solid black;
+  text-align: center;
+  background-color: green;
+  color: gold;
+}
+
+ul.b {
+  list-style-type: circle;
+  margin: 0% 5% 0% 5%;
+  font-size: 2vw;
+  font-family: verdana;
+}
+
+div.food {
+  border: 3px solid green;
+  background-color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 1.5vw;
+  padding: 1%;
+}
+
+div.food img {
+  width: 100%;
+  height: auto;
+}
+
+.responsivefood {
+  padding: 6px;
+  float: left;
+  width: 350px;
+  height: 850px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .responsiveanimal {
+    width: 300px;
+    height: 650px;
+  }
+  .responsivefood {
+    width: 300px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsiveanimal {
+    width: 150px;
+    height: 350px;
+  }
+  .responsivefood {
+    width: 150px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsiveanimal {
+    width: 200px;
+    height: 400px;
+  }
+  .responsivefood {
+    width: 200px;
+    height: 300px;
+  }
+}
